@@ -22,6 +22,3 @@ class Base:
         self.cursor.close()
         self.cnx.close()
 
-
-hora = time.strftime('%H:%M:%S')
-fecha = time.strftime("%d/%m/%y")
